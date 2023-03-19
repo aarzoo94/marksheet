@@ -1,0 +1,29 @@
+table{
+    width:100%;
+    background-color: rgb(239, 193, 193);
+}
+.sub{
+    border: solid black;
+    
+}
+.first{
+    border: solid black;
+}
+.first table td{
+    border: solid black;
+}
+table{
+    height: 700px;
+    width: 100%;
+}
+/* .main h1{
+    align-content: center;
+    margin-left: 50%; */
+/* } */
+.main tr td{
+    text-align: center;
+}.name input{
+    padding: 10px 10px;
+    margin-bottom:20px ;
+}
+

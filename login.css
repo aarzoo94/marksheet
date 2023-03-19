@@ -1,0 +1,38 @@
+.main{
+    background-color: none;
+    height: 450px;
+    width: 350px;
+    border: solid white;
+    border-radius: 14px;
+    align-self: centre;
+    margin-left: 40%;
+    margin-bottom: 1000px
+}
+.first{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+.main h1{
+    margin-left: 40%;
+    font-family: bradley hand;
+    font-size: xx-large;
+
+}
+.name{
+    padding: 10px;
+    margin-left: 10%;
+    font-size: large;
+}
+.button button{
+    margin-left: 50%;
+    height: 40px;
+    width: 120px;
+    margin-top: 8%;
+}
+body{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(53, 88, 120);
+}

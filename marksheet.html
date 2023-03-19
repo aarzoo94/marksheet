@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="marksheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first">
+ <table>
+    <tr class="sub">
+        <td>Subject Name</td>
+        <td>Marks</td>
+        <td>Total Marks</td>
+        <td>Grade</td>
+    </tr>
+    <tr class="English">
+        <td>English</td>
+        <td><script>
+            let a = parseInt(prompt("your English marks"))
+            document.write(a)
+        </script></td>
+        <td>100</td>
+        <td id="Grade1"></td>
+    </tr>
+    <tr class="Hindi">
+        <td>Hindi</td>
+        <td><script>
+            let b = parseInt(prompt("your Hindi marks "))
+            document.write(b)
+        </script></td>
+        <td>100</td>
+        <td id="Grade2"></td>
+    </tr>
+    <tr class="Maths">
+        <td>Maths</td>
+        <td><script>
+            let c = parseInt(prompt("your Maths marks"))
+            document.write(c)
+        </script></td>
+        <td>100</td>
+        <td id="Garde3"></td>
+    </tr>
+    <tr class="Science">
+        <td>Science</td>
+        <td><script>
+            let d = parseInt(prompt("your Science marks"))
+            document.write(d)
+        </script></td>
+        <td>100</td>
+        <td id="Grade4"></td>
+    </tr>
+    <tr class="Social Science">
+        <td>social Science</td>
+        <td><script>
+            let e = parseInt(prompt("your Social Science"))
+            document.write(e)
+        </script></td>
+        <td>100</td>
+        <td id="Grade5"></td>
+    </tr>
+    <tr class="Total">
+        <td>Total</td>
+        <td><script>
+            let total=a+b+c+d+e
+            document.write(total)
+        </script></td>
+        <td>100</td>
+        <td id="Grade6"></td>
+    </tr>
+
+ </table>
+</div>
+<body>
+    <script>
+      if(a>=90)
+      {
+        document.getElementById('Grade1').innerHTML="A+";
+      }
+      else if(a>=70)
+      {
+        document.getElementById('Grade1').innerHTML="A";
+      }
+      else if(a>=50)
+      {
+        document.getElementById('Grade1').innerHTML="B";
+      }
+      else if(a>=33)
+      {
+        document.getElementById('Garde1').innerHTML="C";
+      }
+      else{
+        document.getElementById('Grade1').innerHTML="D";
+      }5
+      if(b>=90)
+      {
+        document.getElemenyById('Grade2').innerHTML="A+";
+      }
+      else if(b>=70)
+      {
+        document.getElementById('Grade2').innerHTML="A";
+      }
+      else if(b>=50)
+      {
+        document.getElementById('Grade2').innerHTML="B";
+      }
+      else if(b>=33)
+      {
+        document.getElementById('Grade2').innerHTML="C";
+      }
+      else{
+        document.getWElementById('Grade2').innerHTML="D";
+      }
+
+     
+      if(c>=90)
+      {
+        document.getElemenyById('Grade3').innerHTML="A+";
+      }
+      else if(c>=70)
+      {
+        document.getElementById('Grade3').innerHTML="A";
+      }
+      else if(c>=50)
+      {
+        document.getElementById('Grade3').innerHTML="B";
+      }
+      else if(c>=33)
+      {
+        document.getElementById('Grade3').innerHTML="C";
+      }
+      else{
+        document.getWElementById('Grade3').innerHTML="D";
+      }
+
+
+      if(d>=90)
+      {
+        document.getElementById('Grade4').innerHTML="A+";
+      }
+      else if(d>=70)
+      {
+        document.getElementById('Grade4').innerHTML="A";
+      }
+      else if(d>=50)
+      {
+        document.getElementById('Grade4').innerHTML="B";
+      }
+      else if(d>=33)
+      {
+        document.getElementById('Grade4').innerHTML="C";
+      }
+      else{
+        document.getElementById('Grade4').innerHTML="D";
+      }
+
+      if(d>=90)
+      {
+        document.getElementById('Grade5').innerHTML="A+";
+      }
+      else if(d>=70)
+      {
+        document.getElementById('Grade5').innerHTML="A";
+      }
+      else if(d>=50)
+      {
+        document.getElementById('Grade5').innerHTML="B";
+      }
+      else if(d>=33)
+      {
+        document.getElementById('Grade5').innerHTML="C";
+      }
+      else{
+        document.getElementById('Grade5').innerHTML="D";
+      }
+
+      if(total>=450)
+      {
+        document.getElementById('Grade6').innerHTML="A+";
+      }
+      else if(total>=400)
+      {
+      document.getElementById('Grade6').innerHTML="A"; 
+      }
+      else if(total>=350)
+      {
+        document.getElementById('Grade6').innerHTML="B";
+      }
+      else if(total>=250)
+      {
+        document.getElementById('Grade6').innerHTML="C";
+      }
+     else{
+        document.getElementById('Grade6').innerHTML="D";
+     }
+    </script>
+</body>
+   
+    
+    
+</body>
+</html>

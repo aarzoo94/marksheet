@@ -1,0 +1,44 @@
+.main{
+    border: 5px;
+    border-radius: 15px;
+    background-color: azure;
+    height: 120px;
+    width: auto;
+    display: flex;
+
+}
+.main li{
+    float: left;
+    list-style: none;
+    margin: 25px 25px;
+}
+.main li a{
+    font-size: x-large;
+    text-decoration: none;
+    padding: 30px;
+    margin-top: 100px;
+}
+.main input{
+    border: 20px;
+    border-radius: 5px;
+    padding: 15px 50px;
+    width: 150px;
+    height: 0px;
+    padding-left: 50px;
+}
+.search{
+    padding: 12px 75px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 70px;                                    
+}
+h2{
+    text-align: centre;
+    font-size:xx-large ;
+}
+.main.name {
+    font-color: white;
+}
+.main.button{
+    margin-left: 1000px;
+}
